@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  redis:
+    networks:
+      - default_network
+    container_name: "redis_db"
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+
+networks:
+  default_network:
+    driver: "bridge"
+    name: "bblbllb_default_network"

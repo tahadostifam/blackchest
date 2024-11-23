@@ -10,6 +10,8 @@ import (
 	"graphql-samples/db"
 	"graphql-samples/graph/model"
 	"log"
+
+	"github.com/99designs/gqlgen/graphql"
 )
 
 // CreateTodo is the resolver for the createTodo field.
@@ -59,6 +61,12 @@ func (r *mutationResolver) CreateUser(ctx context.Context, input model.NewUser) 
 		ID:   int(user.ID),
 		Name: user.Name,
 	}, nil
+}
+
+// DoSomeThing is the resolver for the doSomeThing field.
+func (r *mutationResolver) DoSomeThing(ctx context.Context, input model.NewUser) (*model.User, error) {
+	graphql.AddErrorf(ctx, "This a custom error that has written by Taha from SchemaResolver.")
+	return nil, nil
 }
 
 // Todos is the resolver for the todos field.
