@@ -1,0 +1,15 @@
+/home/tahadostifam/Code/blackchest/csharp/tutorial /bin/Debug/net8.0/csharp
+/home/tahadostifam/Code/blackchest/csharp/tutorial /bin/Debug/net8.0/csharp.deps.json
+/home/tahadostifam/Code/blackchest/csharp/tutorial /bin/Debug/net8.0/csharp.runtimeconfig.json
+/home/tahadostifam/Code/blackchest/csharp/tutorial /bin/Debug/net8.0/csharp.dll
+/home/tahadostifam/Code/blackchest/csharp/tutorial /bin/Debug/net8.0/csharp.pdb
+/home/tahadostifam/Code/blackchest/csharp/tutorial /obj/Debug/net8.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/tahadostifam/Code/blackchest/csharp/tutorial /obj/Debug/net8.0/csharp.AssemblyInfoInputs.cache
+/home/tahadostifam/Code/blackchest/csharp/tutorial /obj/Debug/net8.0/csharp.AssemblyInfo.cs
+/home/tahadostifam/Code/blackchest/csharp/tutorial /obj/Debug/net8.0/csharp.csproj.CoreCompileInputs.cache
+/home/tahadostifam/Code/blackchest/csharp/tutorial /obj/Debug/net8.0/csharp.sourcelink.json
+/home/tahadostifam/Code/blackchest/csharp/tutorial /obj/Debug/net8.0/csharp.dll
+/home/tahadostifam/Code/blackchest/csharp/tutorial /obj/Debug/net8.0/refint/csharp.dll
+/home/tahadostifam/Code/blackchest/csharp/tutorial /obj/Debug/net8.0/csharp.pdb
+/home/tahadostifam/Code/blackchest/csharp/tutorial /obj/Debug/net8.0/csharp.genruntimeconfig.cache
+/home/tahadostifam/Code/blackchest/csharp/tutorial /obj/Debug/net8.0/ref/csharp.dll
