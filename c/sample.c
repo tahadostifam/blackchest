@@ -3,5 +3,6 @@
 static int my_var = 10;
 
 void sample() {
-    printf("asdsad\n");
+    my_var++;
+    printf("a: %d\n", my_var);
 }

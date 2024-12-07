@@ -1,9 +1,5 @@
-#include "sample.c"
+int my_var = 5;
 
 void sample();
 
-enum gender
-{
-    MALE = 1,
-    FEMALE
-};
+

@@ -1,2 +1,2 @@
 main:
-	cc ./main.c; ./a.out; rm ./a.out
+	cc ./main.c ./sample.c; ./a.out; rm ./a.out
