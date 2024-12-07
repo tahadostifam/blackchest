@@ -1,16 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-void do_something(char name[]) {
-    printf("Hi, %s\n", name);
-}
+struct sample_struct
+{
+    int a: 5;
+};
+
 
 int main()
 {
-    void (*my_func)(char[]);
 
-    my_func = do_something;
 
-    my_func("Hello");
-
+    // printf("%d\n", s.a);
     return 0;
 }
