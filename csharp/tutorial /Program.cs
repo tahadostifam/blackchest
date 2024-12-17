@@ -1,49 +1,22 @@
-﻿public class TextBox
+﻿using Newtonsoft.Json;
+
+public struct Person
 {
-    public event EventHandler<TextChangedEventArgs> TextChanged;
-
-    protected virtual void OnTextChanged(TextChangedEventArgs e)
-    {
-        if (TextChanged != null)
-        {
-            TextChanged(this, e);
-        }
-    }
-}
-
-public class TextChangedEventArgs : EventArgs
-{
-    public string NewText { get; set; }
-
-    public TextChangedEventArgs(string newText)
-    {
-        NewText = newText;
-    }
+    public string Name;
+    public string LastName;
+    public int Age;
+    public DateTime BirthDate;
 }
 
 class MyProgram
 {
-    public delegate void Callback(String input);
-
-    private static void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+    static void Main()
     {
-        Console.WriteLine("text changed: "+ e.NewText);
-    }
-    
-    public static void Main(string[] args)
-    {
-        TextBox textBox = new TextBox();
-
-        textBox.TextChanged += TextBox_TextChanged;
-        
-
-        // Action<object> objectAction = obj =>
-        // {
-        //     Console.WriteLine(obj);
-        // };
-        //
-        // Action<object> a = new Action<object>(objectAction);
-        //
-        // a.Invoke(1234);
+        string json = @"{""Name"":""Jane Doe"",""Age"":25,""BirthDate"":""1998-03-15T08:00:00""}";
+        Person person = JsonConvert.DeserializeObject<Person>(json);
+        System.Console.WriteLine(person.Name);
+        System.Console.WriteLine(person.LastName);
+        System.Console.WriteLine(Convert.ToDouble(person.Age));
+        System.Console.WriteLine(person.BirthDate);
     }
 }
