@@ -1,0 +1,11 @@
+[package]
+name = "call-c-from-rust"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+cc = "1.2.7"
+
+[[bin]]
+name = "main"
+path = "./main.rs"

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aspdotnet-tutorial")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c86e5d0fd2be8d54e65d7b3c33727d3f2d2588cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac9e99b22c64dd26c3c79aecb65094410d814d32")]
 [assembly: System.Reflection.AssemblyProductAttribute("aspdotnet-tutorial")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aspdotnet-tutorial")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

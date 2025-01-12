@@ -1,0 +1,7 @@
+extern void
+hello ()
+{
+main_block:
+  return;
+}
+

@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int main() {
-    printf("Hello World\n");
-    
+int main()
+{
+    char name[7] = "Hello";
+
     return 0;
 }
