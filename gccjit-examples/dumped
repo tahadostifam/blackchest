@@ -1,22 +1,10 @@
 extern __int32_t
 main ()
 {
+  __int32_t[3] my_array;
+
 entry:
-  if ((__int32_t)1 < (__int32_t)2) goto true_block_1; else goto false_block_1;
-
-true_block_1:
-  if ((__int32_t)10 == (__int32_t)10) goto true_block_2; else goto false_block_2;
-
-false_block_1:
-  if ((__int32_t)3 < (__int32_t)4) goto true_block_2; else goto final_block;
-
-true_block_2:
-  goto final_block;
-
-false_block_2:
-  goto final_block;
-
-final_block:
+  my_array = (__int32_t[3]) {(__int32_t)15, (__int32_t)20, (__int32_t)25};
   return (__int32_t)0;
 }
 
