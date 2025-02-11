@@ -1,10 +1,15 @@
+#include <stdlib.h>
 #include <stdio.h>
-#include <math.h>
 
 int main()
-{
-    double x = sqrt(9);
-    printf("%f\n", x);
+{ 
+  void *a[2];
+  a[0] = NULL;
 
-    return 0;
+  // int *a = malloc(sizeof(int));
+
+  // *a = 10;
+
+  // printf("%d\n", *a);
+  // printf("%lu\n", sizeof(int));
 }
