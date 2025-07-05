@@ -5,10 +5,3 @@ struct Sample
     def show 
     end
 end
-
-struct Sample
-  def another_def
-    
-  end
-end
-
